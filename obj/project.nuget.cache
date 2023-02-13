@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "LYaTwllmw+Co82K8FslUEpUyc/kALjsPHxp4BBV/j5klbulV5IC3gqmn9EbQei8nT2xdPHdC+g5opVahBkutPA==",
-  "success": false,
+  "dgSpecHash": "JzSGKnp3hUwzz1zj8Ex3liibxpXGnSa5/3ATMc7BuKb6Vqws8Ke2qc5s5+PXw+g+KynUc/epPbInJSIam7kSgA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\aleksasj\\source\\repos\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleksasj\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
@@ -68,15 +68,5 @@
     "C:\\Users\\aleksasj\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\aleksasj\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\aleksasj\\source\\repos\\FrontendApp\\FrontendApp.esproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\aleksasj\\source\\repos\\FrontendApp\\FrontendApp.esproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

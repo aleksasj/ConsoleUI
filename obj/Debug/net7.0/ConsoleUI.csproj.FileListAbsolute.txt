@@ -26,7 +26,6 @@ C:\Users\aleksasj\source\repos\ConsoleUI\obj\Debug\net7.0\ConsoleUI.genruntimeco
 C:\Users\aleksasj\source\repos\ConsoleUI\obj\Debug\net7.0\ref\ConsoleUI.dll
 C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\TaxiDispacher.deps.json
 C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\TaxiDispacher.runtimeconfig.json
-C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\TaxiDispacher.exe
 C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\aleksasj\source\repos\ConsoleUI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll

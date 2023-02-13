@@ -1166,7 +1166,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "C:\\Users\\aleksasj\\source\\repos\\FrontendApp\\FrontendApp.esproj": "1.0.0",
           "DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.2",
           "Microsoft.AspNetCore.OpenApi": "7.0.1",
@@ -3381,16 +3380,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\aleksasj\\source\\repos\\FrontendApp\\FrontendApp.esproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\aleksasj\\source\\repos\\FrontendApp\\FrontendApp.esproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }
