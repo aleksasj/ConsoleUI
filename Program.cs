@@ -14,7 +14,8 @@ class Program
         BuildConfig(builder);
 
         var host = Host.CreateDefaultBuilder()
-            .ConfigureServices((context, services) => {
+            .ConfigureServices((context, services) =>
+            {
                 services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
                 services.AddSingleton<IUserRepository, UserRepository>();
                 services.AddTransient<IConsoleAppService, ConsoleAppService>();
@@ -23,7 +24,7 @@ class Program
 
         var svc = ActivatorUtilities.CreateInstance<ConsoleAppService>(host.Services);
         svc.Run();
-        
+
     }
 
     static void BuildConfig(IConfigurationBuilder builder)
