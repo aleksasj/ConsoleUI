@@ -12,7 +12,7 @@ public class ConsoleAppService : IConsoleAppService
     public ConsoleAppService(IUserRepository userRepository, IConfiguration config)
     {
         _userRepository = userRepository;
-        _securitySalt = config["Salt"];
+        _securitySalt = config.GetValue<String>("Salt");
     }
     public void Run()
     {

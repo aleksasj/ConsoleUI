@@ -10,8 +10,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var builder = new ConfigurationBuilder();
-        BuildConfig(builder);
+        BuildConfig(new ConfigurationBuilder());
 
         var host = Host.CreateDefaultBuilder()
             .ConfigureServices((context, services) =>
@@ -22,9 +21,7 @@ class Program
             })
             .Build();
 
-        var svc = ActivatorUtilities.CreateInstance<ConsoleAppService>(host.Services);
-        svc.Run();
-
+        ActivatorUtilities.CreateInstance<ConsoleAppService>(host.Services).Run();
     }
 
     static void BuildConfig(IConfigurationBuilder builder)
